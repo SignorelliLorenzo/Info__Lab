@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Le informazioni generali relative a un assembly sono controllate dal seguente 
 // set di attributi. Modificare i valori di questi attributi per modificare le informazioni
 // associate a un assembly.
-[assembly: AssemblyTitle("DLLFERRAMENTA")]
+[assembly: AssemblyTitle("dllferramenta")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("DLLFERRAMENTA")]
+[assembly: AssemblyProduct("dllferramenta")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Se il progetto viene esposto a COM, il GUID seguente verrà utilizzato come ID della libreria dei tipi
-[assembly: Guid("5e456465-bce3-4d70-af35-7e3ddd519b40")]
+[assembly: Guid("9ec48432-544a-49b9-a450-d1fed22e9c20")]
 
 // Le informazioni sulla versione di un assembly sono costituite dai seguenti quattro valori:
 //
