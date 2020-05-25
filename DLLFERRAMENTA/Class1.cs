@@ -28,15 +28,18 @@ namespace InfoLab
             {
                 if (string.Compare(eleattrezzi[x].codice, codicescelto) == 0)
                 {
+                    if (eleattrezzi[x].quantità < quantità)
+                    {
+                        found = false;
+                        return found;
+                    }
+
                     found = true;
+                    eleattrezzi[x].quantità = eleattrezzi[x].quantità - quantità;
                     eleattrezzi[x] = eleattrezzi[n - 1];
                     n = n - 1;
                 }
                 x = x + 1;
-            }
-            if (!found)
-            {
-                found = false;
             }
             return found;
         }
@@ -111,73 +114,7 @@ namespace InfoLab
             med = totale / n;
             return med;
         }
-        public static attrezzo prezzominimocategoria(attrezzo[] eleattrezzi, int n, string catecercata)
-        {
-            int x = default(int);
-            decimal prezzomin = default(decimal);
-            attrezzo attrezzomin = default(attrezzo);
-
-            while (x < n)
-            {
-                if (string.Compare(catecercata, eleattrezzi[x].categoria) == 0)
-                {
-                    prezzomin = eleattrezzi[x].prezzo;
-                    attrezzomin = eleattrezzi[x];
-                    break;
-                }
-                x = x + 1;
-            }
-
-            while (x < n)
-            {
-                if (string.Compare(catecercata, eleattrezzi[x].categoria) == 0)
-                {
-
-                    if (eleattrezzi[x].prezzo < prezzomin)
-                    {
-                        prezzomin = eleattrezzi[x].prezzo;
-                        attrezzomin = eleattrezzi[x];
-                    }
-
-                }
-                x = x + 1;
-            }
-            return attrezzomin;
-        }
-        public static attrezzo prezzomassimocategoria(attrezzo[] eleattrezzi, int n, string catecercata)
-        {
-            int x = default(int);
-            decimal prezzomax = default(decimal);
-            attrezzo attrezzomax = default(attrezzo);
-
-            while (x < n)
-            {
-                if (string.Compare(catecercata, eleattrezzi[x].categoria) == 0)
-                {
-                    prezzomax = eleattrezzi[x].prezzo;
-                    attrezzomax = eleattrezzi[x];
-                    break;
-                }
-                x = x + 1;
-            }
-
-            while (x < n)
-            {
-                if (string.Compare(catecercata, eleattrezzi[x].categoria) == 0)
-                {
-
-                    if (eleattrezzi[x].prezzo > prezzomax)
-                    {
-                        prezzomax = eleattrezzi[x].prezzo;
-                        attrezzomax = eleattrezzi[x];
-                    }
-
-                }
-                x = x + 1;
-            }
-            return attrezzomax;
-        }
-
+        
         public static bool cancellacategoria(attrezzo[] eleattrezzi, ref int n, string categoriascelta, ref int npc)
         {
             int x = default(int);
@@ -200,78 +137,6 @@ namespace InfoLab
                 found = false;
             }
             return found;
-
-        }
-
-        public static void ordinacodice(attrezzo[] eleattrezzi, int n)
-        {
-            attrezzo temporaneo = default(attrezzo);
-            int x = default(int);
-            int y = default(int);
-
-            while (x < n)
-            {
-                y = x + 1;
-
-                while (y < n)
-                {
-                    if (string.Compare(eleattrezzi[x].codice, eleattrezzi[y].codice) > 0)
-                    {
-                        temporaneo = eleattrezzi[x];
-                        eleattrezzi[x] = eleattrezzi[y];
-                        eleattrezzi[y] = temporaneo;
-                    }
-                    y = y + 1;
-                }
-                x = x + 1;
-            }
-        }
-
-        public static void ordinaprezzo(attrezzo[] eleattrezzi, int n)
-        {
-            attrezzo temporaneo = default(attrezzo);
-            int x = default(int);
-            int y = default(int);
-
-            while (x < n)
-            {
-                y = x + 1;
-
-                while (y < n)
-                {
-                    if (eleattrezzi[x].prezzo > eleattrezzi[y].prezzo)
-                    {
-                        temporaneo = eleattrezzi[x];
-                        eleattrezzi[x] = eleattrezzi[y];
-                        eleattrezzi[y] = temporaneo;
-                    }
-                    y = y + 1;
-                }
-                x = x + 1;
-            }
-        }
-        public static void ordinadata(attrezzo[] eleattrezzi, int n)
-        {
-            attrezzo temporaneo = default(attrezzo);
-            int x = default(int);
-            int y = default(int);
-
-            while (x < n)
-            {
-                y = x + 1;
-
-                while (y < n)
-                {
-                    if (eleattrezzi[x].data > eleattrezzi[y].data)
-                    {
-                        temporaneo = eleattrezzi[x];
-                        eleattrezzi[x] = eleattrezzi[y];
-                        eleattrezzi[y] = temporaneo;
-                    }
-                    y = y + 1;
-                }
-                x = x + 1;
-            }
         }
     }
 }
