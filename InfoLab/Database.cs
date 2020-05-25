@@ -21,7 +21,7 @@ namespace Online
             public int quantità;
             public DateTime data;
         }
-        public static bool carica(attrezzo[] elep, int n)
+        public static bool salva(attrezzo[] elep, int n)
         {
             string supersecretpass = "X6!GZ9Pz}N9&8oECRZCYqrM,XXM2+ZwcYgkHIW";
 
@@ -30,14 +30,14 @@ namespace Online
                 int x = 0;
                 var conn = new MySqlConnection($"Server=85.10.205.173;port=3306;Uid=ad_pass;Pwd={supersecretpass};Database=passfolder1;Connection Timeout=30;old guids=true;");
                 conn.Open();
-                var reset = new MySqlCommand("DELETE FROM Prodotti", conn);
+                var reset = new MySqlCommand("DELETE FROM Ferramenta", conn);
                 int el = reset.ExecuteNonQuery();
                 reset.Dispose();
 
                 while (x < n)
                 {
 
-                    var inserimento = new MySqlCommand("INSERT INTO Prodotti (isbn,titolo,autore,editore,prezzo,materia,classe,quantita) VALUES(@a,@b,@c,@d,@e,@f,@g,@h)", conn);
+                    var inserimento = new MySqlCommand("INSERT INTO Ferramenta (isbn,titolo,autore,editore,prezzo,materia,classe,quantita) VALUES(@a,@b,@c,@d,@e,@f,@g,@h)", conn);
                     inserimento.Parameters.AddWithValue("@a", elep[x].codice);
                     inserimento.Parameters.AddWithValue("@b", elep[x].categoria);
                     inserimento.Parameters.AddWithValue("@c", elep[x].marca);
@@ -58,7 +58,7 @@ namespace Online
                 return false;
             }
         }
-        public static bool scarica(attrezzo[] elep, ref int n)
+        public static bool carica(attrezzo[] elep, ref int n)
         {
             string supersecretpass = "X6!GZ9Pz}N9&8oECRZCYqrM,XXM2+ZwcYgkHIW";
 
@@ -67,7 +67,7 @@ namespace Online
 
                 var conn = new MySqlConnection($"Server=85.10.205.173;port=3306;Uid=ad_pass;Pwd={supersecretpass};Database=passfolder1;Connection Timeout=30;old guids=true;");
                 conn.Open();
-                var cmd = new MySqlCommand("select * from Prodotti", conn);
+                var cmd = new MySqlCommand("select * from Ferramenta", conn);
                 MySqlDataReader dr = default;
                 dr = cmd.ExecuteReader();
                 while (dr.Read() == true)
