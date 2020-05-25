@@ -11,7 +11,7 @@ namespace Online
     
     class Database
     {
-        public struct attrezzo
+        public struct attrezzo  
         {
             public string codice;
             public string categoria;
