@@ -73,6 +73,7 @@
             this.tbVenCate = new System.Windows.Forms.TextBox();
             this.tbVenId = new System.Windows.Forms.TextBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.btnAggiorna1 = new MaterialSkin.Controls.MaterialRaisedButton();
             this.rbtnQ = new MaterialSkin.Controls.MaterialRadioButton();
             this.materialLabel15 = new MaterialSkin.Controls.MaterialLabel();
             this.rbtnPrezzo = new MaterialSkin.Controls.MaterialRadioButton();
@@ -111,6 +112,7 @@
             this.btnMin = new MaterialSkin.Controls.MaterialRaisedButton();
             this.btnMax = new MaterialSkin.Controls.MaterialRaisedButton();
             this.materialTabSelector = new MaterialSkin.Controls.MaterialTabSelector();
+            this.btnAggiorna2 = new MaterialSkin.Controls.MaterialRaisedButton();
             this.materialTabControl.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -162,6 +164,7 @@
             this.btnAcq.Name = "btnAcq";
             this.btnAcq.Primary = true;
             this.btnAcq.UseVisualStyleBackColor = true;
+            this.btnAcq.Click += new System.EventHandler(this.btnAcq_Click);
             // 
             // materialLabel7
             // 
@@ -256,6 +259,7 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.btnAggiorna2);
             this.tabPage2.Controls.Add(this.materialLabel23);
             this.tabPage2.Controls.Add(this.tbVenQdaVendere);
             this.tabPage2.Controls.Add(this.btnVen);
@@ -301,6 +305,7 @@
             this.btnVen.Name = "btnVen";
             this.btnVen.Primary = true;
             this.btnVen.UseVisualStyleBackColor = true;
+            this.btnVen.Click += new System.EventHandler(this.btnVen_Click);
             // 
             // lvVen
             // 
@@ -340,6 +345,7 @@
             this.btnVenCerca.Name = "btnVenCerca";
             this.btnVenCerca.Primary = true;
             this.btnVenCerca.UseVisualStyleBackColor = true;
+            this.btnVenCerca.Click += new System.EventHandler(this.btnVenCerca_Click);
             // 
             // materialLabel8
             // 
@@ -434,6 +440,7 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.btnAggiorna1);
             this.tabPage3.Controls.Add(this.rbtnQ);
             this.tabPage3.Controls.Add(this.materialLabel15);
             this.tabPage3.Controls.Add(this.rbtnPrezzo);
@@ -443,6 +450,17 @@
             resources.ApplyResources(this.tabPage3, "tabPage3");
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // btnAggiorna1
+            // 
+            resources.ApplyResources(this.btnAggiorna1, "btnAggiorna1");
+            this.btnAggiorna1.Depth = 0;
+            this.btnAggiorna1.Icon = null;
+            this.btnAggiorna1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnAggiorna1.Name = "btnAggiorna1";
+            this.btnAggiorna1.Primary = true;
+            this.btnAggiorna1.UseVisualStyleBackColor = true;
+            this.btnAggiorna1.Click += new System.EventHandler(this.btnAggiorna1_Click);
             // 
             // rbtnQ
             // 
@@ -571,6 +589,7 @@
             this.btnModCerca.Name = "btnModCerca";
             this.btnModCerca.Primary = true;
             this.btnModCerca.UseVisualStyleBackColor = true;
+            this.btnModCerca.Click += new System.EventHandler(this.btnModCerca_Click);
             // 
             // btnMod
             // 
@@ -581,6 +600,7 @@
             this.btnMod.Name = "btnMod";
             this.btnMod.Primary = true;
             this.btnMod.UseVisualStyleBackColor = true;
+            this.btnMod.Click += new System.EventHandler(this.btnMod_Click);
             // 
             // materialLabel16
             // 
@@ -718,6 +738,7 @@
             this.btnMedio.Name = "btnMedio";
             this.btnMedio.Primary = true;
             this.btnMedio.UseVisualStyleBackColor = true;
+            this.btnMedio.Click += new System.EventHandler(this.btnMedio_Click);
             // 
             // btnMin
             // 
@@ -728,6 +749,7 @@
             this.btnMin.Name = "btnMin";
             this.btnMin.Primary = true;
             this.btnMin.UseVisualStyleBackColor = true;
+            this.btnMin.Click += new System.EventHandler(this.btnMin_Click);
             // 
             // btnMax
             // 
@@ -738,6 +760,7 @@
             this.btnMax.Name = "btnMax";
             this.btnMax.Primary = true;
             this.btnMax.UseVisualStyleBackColor = true;
+            this.btnMax.Click += new System.EventHandler(this.btnMax_Click);
             // 
             // materialTabSelector
             // 
@@ -748,6 +771,17 @@
             this.materialTabSelector.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialTabSelector.Name = "materialTabSelector";
             // 
+            // btnAggiorna2
+            // 
+            resources.ApplyResources(this.btnAggiorna2, "btnAggiorna2");
+            this.btnAggiorna2.Depth = 0;
+            this.btnAggiorna2.Icon = null;
+            this.btnAggiorna2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnAggiorna2.Name = "btnAggiorna2";
+            this.btnAggiorna2.Primary = true;
+            this.btnAggiorna2.UseVisualStyleBackColor = true;
+            this.btnAggiorna2.Click += new System.EventHandler(this.btnAggiorna2_Click);
+            // 
             // tbModId
             // 
             resources.ApplyResources(this, "$this");
@@ -756,6 +790,7 @@
             this.Controls.Add(this.materialTabControl);
             this.Name = "tbModId";
             this.Sizable = false;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.tbModId_FormClosing);
             this.Load += new System.EventHandler(this.tbModId_Load);
             this.materialTabControl.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
@@ -854,6 +889,8 @@
         private MaterialSkin.Controls.MaterialLabel lbMax;
         private MaterialSkin.Controls.MaterialLabel materialLabel23;
         private System.Windows.Forms.TextBox tbVenQdaVendere;
+        private MaterialSkin.Controls.MaterialRaisedButton btnAggiorna1;
+        private MaterialSkin.Controls.MaterialRaisedButton btnAggiorna2;
     }
 }
 

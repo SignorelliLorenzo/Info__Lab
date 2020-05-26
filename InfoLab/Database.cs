@@ -4,24 +4,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
+using dllferramenta;
 
 
 namespace Online
 {
-    
+    //public struct attrezzo
+    //{
+    //    public string codice;
+    //    public string categoria;
+    //    public string marca;
+    //    public string modello;
+    //    public decimal prezzo;
+    //    public int quantità;
+    //    public DateTime data;
+    //}
     class Database
     {
-        public struct attrezzo  
-        {
-            public string codice;
-            public string categoria;
-            public string marca;
-            public string modello;
-            public decimal prezzo;
-            public int quantità;
-            public DateTime data;
-        }
-        public static bool salva(attrezzo[] elep, int n)
+        public static bool salva(funzioni.attrezzo[] elep, int n)
         {
             string supersecretpass = "X6!GZ9Pz}N9&8oECRZCYqrM,XXM2+ZwcYgkHIW";
 
@@ -58,8 +58,9 @@ namespace Online
                 return false;
             }
         }
-        public static bool carica(attrezzo[] elep, ref int n)
+        public static bool carica(funzioni.attrezzo[] elep, ref int n)
         {
+            n = 0;
             string supersecretpass = "X6!GZ9Pz}N9&8oECRZCYqrM,XXM2+ZwcYgkHIW";
 
             try

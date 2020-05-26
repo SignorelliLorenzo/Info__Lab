@@ -117,26 +117,317 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="&gt;&gt;tabPage1.Name" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Parent" xml:space="preserve">
+    <value>materialTabControl</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Name" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Parent" xml:space="preserve">
+    <value>materialTabControl</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tabPage3.Name" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;tabPage3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage3.Parent" xml:space="preserve">
+    <value>materialTabControl</value>
+  </data>
+  <data name="&gt;&gt;tabPage3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tabPage4.Name" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;tabPage4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage4.Parent" xml:space="preserve">
+    <value>materialTabControl</value>
+  </data>
+  <data name="&gt;&gt;tabPage4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tabPage5.Name" xml:space="preserve">
+    <value>tabPage5</value>
+  </data>
+  <data name="&gt;&gt;tabPage5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage5.Parent" xml:space="preserve">
+    <value>materialTabControl</value>
+  </data>
+  <data name="&gt;&gt;tabPage5.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="materialTabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 98</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="materialTabControl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
+  </data>
+  <data name="materialTabControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1574, 963</value>
+  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="materialTabControl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;materialTabControl.Name" xml:space="preserve">
+    <value>materialTabControl</value>
+  </data>
+  <data name="&gt;&gt;materialTabControl.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialTabControl, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialTabControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;materialTabControl.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnAcq.Name" xml:space="preserve">
+    <value>btnAcq</value>
+  </data>
+  <data name="&gt;&gt;btnAcq.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialRaisedButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnAcq.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;btnAcq.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;materialLabel7.Name" xml:space="preserve">
+    <value>materialLabel7</value>
+  </data>
+  <data name="&gt;&gt;materialLabel7.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel7.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;materialLabel7.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;materialLabel6.Name" xml:space="preserve">
+    <value>materialLabel6</value>
+  </data>
+  <data name="&gt;&gt;materialLabel6.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel6.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;materialLabel6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;materialLabel5.Name" xml:space="preserve">
+    <value>materialLabel5</value>
+  </data>
+  <data name="&gt;&gt;materialLabel5.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel5.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;materialLabel5.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;materialLabel4.Name" xml:space="preserve">
+    <value>materialLabel4</value>
+  </data>
+  <data name="&gt;&gt;materialLabel4.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel4.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;materialLabel4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;materialLabel3.Name" xml:space="preserve">
+    <value>materialLabel3</value>
+  </data>
+  <data name="&gt;&gt;materialLabel3.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel3.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;materialLabel3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;materialLabel2.Name" xml:space="preserve">
+    <value>materialLabel2</value>
+  </data>
+  <data name="&gt;&gt;materialLabel2.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel2.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;materialLabel2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;materialLabel1.Name" xml:space="preserve">
+    <value>materialLabel1</value>
+  </data>
+  <data name="&gt;&gt;materialLabel1.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel1.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;materialLabel1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;tbAcqData.Name" xml:space="preserve">
+    <value>tbAcqData</value>
+  </data>
+  <data name="&gt;&gt;tbAcqData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbAcqData.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;tbAcqData.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;tbAcqQ.Name" xml:space="preserve">
+    <value>tbAcqQ</value>
+  </data>
+  <data name="&gt;&gt;tbAcqQ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbAcqQ.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;tbAcqQ.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;tbAcqPrezzo.Name" xml:space="preserve">
+    <value>tbAcqPrezzo</value>
+  </data>
+  <data name="&gt;&gt;tbAcqPrezzo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbAcqPrezzo.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;tbAcqPrezzo.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;tbAcqModello.Name" xml:space="preserve">
+    <value>tbAcqModello</value>
+  </data>
+  <data name="&gt;&gt;tbAcqModello.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbAcqModello.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;tbAcqModello.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;tbAcqMarca.Name" xml:space="preserve">
+    <value>tbAcqMarca</value>
+  </data>
+  <data name="&gt;&gt;tbAcqMarca.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbAcqMarca.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;tbAcqMarca.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;tbAcqCate.Name" xml:space="preserve">
+    <value>tbAcqCate</value>
+  </data>
+  <data name="&gt;&gt;tbAcqCate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbAcqCate.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;tbAcqCate.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;tbAcqId.Name" xml:space="preserve">
+    <value>tbAcqId</value>
+  </data>
+  <data name="&gt;&gt;tbAcqId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbAcqId.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;tbAcqId.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="tabPage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
+  </data>
+  <data name="tabPage1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
+  </data>
+  <data name="tabPage1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
+  </data>
+  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1566, 766</value>
+  </data>
+  <data name="tabPage1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>Acquisto</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Name" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Parent" xml:space="preserve">
+    <value>materialTabControl</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="btnAcq.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="btnAcq.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowAndShrink</value>
   </data>
   <data name="btnAcq.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="btnAcq.Location" type="System.Drawing.Point, System.Drawing">
-    <value>283, 427</value>
-  </data>
-  <data name="btnAcq.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>440, 619</value>
   </data>
   <data name="btnAcq.Size" type="System.Drawing.Size, System.Drawing">
-    <value>87, 36</value>
+    <value>122, 36</value>
   </data>
   <data name="btnAcq.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -166,13 +457,10 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>74, 383</value>
-  </data>
-  <data name="materialLabel7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>115, 555</value>
   </data>
   <data name="materialLabel7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>114, 19</value>
+    <value>163, 27</value>
   </data>
   <data name="materialLabel7.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -202,13 +490,10 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>74, 338</value>
-  </data>
-  <data name="materialLabel6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>115, 490</value>
   </data>
   <data name="materialLabel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 19</value>
+    <value>94, 27</value>
   </data>
   <data name="materialLabel6.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -238,13 +523,10 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>74, 293</value>
-  </data>
-  <data name="materialLabel5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>115, 425</value>
   </data>
   <data name="materialLabel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 19</value>
+    <value>80, 27</value>
   </data>
   <data name="materialLabel5.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -274,13 +556,10 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>74, 248</value>
-  </data>
-  <data name="materialLabel4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>115, 360</value>
   </data>
   <data name="materialLabel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>64, 19</value>
+    <value>91, 27</value>
   </data>
   <data name="materialLabel4.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -310,13 +589,10 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>74, 203</value>
-  </data>
-  <data name="materialLabel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>115, 294</value>
   </data>
   <data name="materialLabel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 19</value>
+    <value>74, 27</value>
   </data>
   <data name="materialLabel3.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -346,13 +622,10 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>74, 159</value>
-  </data>
-  <data name="materialLabel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>115, 231</value>
   </data>
   <data name="materialLabel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>74, 19</value>
+    <value>106, 27</value>
   </data>
   <data name="materialLabel2.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -382,13 +655,10 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>74, 114</value>
-  </data>
-  <data name="materialLabel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>115, 165</value>
   </data>
   <data name="materialLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 19</value>
+    <value>80, 27</value>
   </data>
   <data name="materialLabel1.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -409,10 +679,13 @@
     <value>7</value>
   </data>
   <data name="tbAcqData.Location" type="System.Drawing.Point, System.Drawing">
-    <value>238, 379</value>
+    <value>370, 550</value>
+  </data>
+  <data name="tbAcqData.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="tbAcqData.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 26</value>
+    <value>273, 35</value>
   </data>
   <data name="tbAcqData.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -430,10 +703,13 @@
     <value>8</value>
   </data>
   <data name="tbAcqQ.Location" type="System.Drawing.Point, System.Drawing">
-    <value>238, 334</value>
+    <value>370, 484</value>
+  </data>
+  <data name="tbAcqQ.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="tbAcqQ.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 26</value>
+    <value>273, 35</value>
   </data>
   <data name="tbAcqQ.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -451,10 +727,13 @@
     <value>9</value>
   </data>
   <data name="tbAcqPrezzo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>238, 290</value>
+    <value>370, 421</value>
+  </data>
+  <data name="tbAcqPrezzo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="tbAcqPrezzo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 26</value>
+    <value>273, 35</value>
   </data>
   <data name="tbAcqPrezzo.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -472,10 +751,13 @@
     <value>10</value>
   </data>
   <data name="tbAcqModello.Location" type="System.Drawing.Point, System.Drawing">
-    <value>238, 245</value>
+    <value>370, 355</value>
+  </data>
+  <data name="tbAcqModello.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="tbAcqModello.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 26</value>
+    <value>273, 35</value>
   </data>
   <data name="tbAcqModello.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -493,10 +775,13 @@
     <value>11</value>
   </data>
   <data name="tbAcqMarca.Location" type="System.Drawing.Point, System.Drawing">
-    <value>238, 200</value>
+    <value>370, 290</value>
+  </data>
+  <data name="tbAcqMarca.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="tbAcqMarca.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 26</value>
+    <value>273, 35</value>
   </data>
   <data name="tbAcqMarca.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -514,10 +799,13 @@
     <value>12</value>
   </data>
   <data name="tbAcqCate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>238, 155</value>
+    <value>370, 225</value>
+  </data>
+  <data name="tbAcqCate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="tbAcqCate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 26</value>
+    <value>273, 35</value>
   </data>
   <data name="tbAcqCate.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -535,10 +823,13 @@
     <value>13</value>
   </data>
   <data name="tbAcqId.Location" type="System.Drawing.Point, System.Drawing">
-    <value>238, 110</value>
+    <value>370, 160</value>
+  </data>
+  <data name="tbAcqId.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="tbAcqId.Size" type="System.Drawing.Size, System.Drawing">
-    <value>178, 26</value>
+    <value>275, 35</value>
   </data>
   <data name="tbAcqId.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -555,32 +846,275 @@
   <data name="&gt;&gt;tbAcqId.ZOrder" xml:space="preserve">
     <value>14</value>
   </data>
-  <data name="tabPage1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 29</value>
+  <data name="&gt;&gt;btnAggiorna2.Name" xml:space="preserve">
+    <value>btnAggiorna2</value>
   </data>
-  <data name="tabPage1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
+  <data name="&gt;&gt;btnAggiorna2.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialRaisedButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1004, 621</value>
+  <data name="&gt;&gt;btnAggiorna2.Parent" xml:space="preserve">
+    <value>tabPage2</value>
   </data>
-  <data name="tabPage1.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;btnAggiorna2.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="tabPage1.Text" xml:space="preserve">
-    <value>Acquisto</value>
+  <data name="&gt;&gt;materialLabel23.Name" xml:space="preserve">
+    <value>materialLabel23</value>
   </data>
-  <data name="&gt;&gt;tabPage1.Name" xml:space="preserve">
-    <value>tabPage1</value>
+  <data name="&gt;&gt;materialLabel23.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;tabPage1.Type" xml:space="preserve">
+  <data name="&gt;&gt;materialLabel23.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;materialLabel23.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tbVenQdaVendere.Name" xml:space="preserve">
+    <value>tbVenQdaVendere</value>
+  </data>
+  <data name="&gt;&gt;tbVenQdaVendere.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbVenQdaVendere.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;tbVenQdaVendere.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnVen.Name" xml:space="preserve">
+    <value>btnVen</value>
+  </data>
+  <data name="&gt;&gt;btnVen.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialRaisedButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnVen.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;btnVen.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lvVen.Name" xml:space="preserve">
+    <value>lvVen</value>
+  </data>
+  <data name="&gt;&gt;lvVen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lvVen.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;lvVen.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnVenCerca.Name" xml:space="preserve">
+    <value>btnVenCerca</value>
+  </data>
+  <data name="&gt;&gt;btnVenCerca.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialRaisedButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnVenCerca.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;btnVenCerca.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;materialLabel8.Name" xml:space="preserve">
+    <value>materialLabel8</value>
+  </data>
+  <data name="&gt;&gt;materialLabel8.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel8.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;materialLabel8.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;materialLabel9.Name" xml:space="preserve">
+    <value>materialLabel9</value>
+  </data>
+  <data name="&gt;&gt;materialLabel9.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel9.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;materialLabel9.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;materialLabel10.Name" xml:space="preserve">
+    <value>materialLabel10</value>
+  </data>
+  <data name="&gt;&gt;materialLabel10.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel10.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;materialLabel10.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;materialLabel11.Name" xml:space="preserve">
+    <value>materialLabel11</value>
+  </data>
+  <data name="&gt;&gt;materialLabel11.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel11.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;materialLabel11.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;materialLabel12.Name" xml:space="preserve">
+    <value>materialLabel12</value>
+  </data>
+  <data name="&gt;&gt;materialLabel12.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel12.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;materialLabel12.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;materialLabel13.Name" xml:space="preserve">
+    <value>materialLabel13</value>
+  </data>
+  <data name="&gt;&gt;materialLabel13.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel13.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;materialLabel13.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;materialLabel14.Name" xml:space="preserve">
+    <value>materialLabel14</value>
+  </data>
+  <data name="&gt;&gt;materialLabel14.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel14.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;materialLabel14.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;tbVenData.Name" xml:space="preserve">
+    <value>tbVenData</value>
+  </data>
+  <data name="&gt;&gt;tbVenData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbVenData.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;tbVenData.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;tbVenQ.Name" xml:space="preserve">
+    <value>tbVenQ</value>
+  </data>
+  <data name="&gt;&gt;tbVenQ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbVenQ.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;tbVenQ.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;tbVenPrezzo.Name" xml:space="preserve">
+    <value>tbVenPrezzo</value>
+  </data>
+  <data name="&gt;&gt;tbVenPrezzo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbVenPrezzo.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;tbVenPrezzo.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;tbVenModello.Name" xml:space="preserve">
+    <value>tbVenModello</value>
+  </data>
+  <data name="&gt;&gt;tbVenModello.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbVenModello.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;tbVenModello.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;tbVenMarca.Name" xml:space="preserve">
+    <value>tbVenMarca</value>
+  </data>
+  <data name="&gt;&gt;tbVenMarca.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbVenMarca.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;tbVenMarca.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;tbVenCate.Name" xml:space="preserve">
+    <value>tbVenCate</value>
+  </data>
+  <data name="&gt;&gt;tbVenCate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbVenCate.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;tbVenCate.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;tbVenId.Name" xml:space="preserve">
+    <value>tbVenId</value>
+  </data>
+  <data name="&gt;&gt;tbVenId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbVenId.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;tbVenId.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="tabPage2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
+  </data>
+  <data name="tabPage2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
+  </data>
+  <data name="tabPage2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
+  </data>
+  <data name="tabPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1566, 766</value>
+  </data>
+  <data name="tabPage2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>Vendita</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Name" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;tabPage1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;tabPage2.Parent" xml:space="preserve">
     <value>materialTabControl</value>
   </data>
-  <data name="&gt;&gt;tabPage1.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;tabPage2.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="materialLabel23.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -592,13 +1126,10 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel23.Location" type="System.Drawing.Point, System.Drawing">
-    <value>502, 441</value>
-  </data>
-  <data name="materialLabel23.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>781, 639</value>
   </data>
   <data name="materialLabel23.Size" type="System.Drawing.Size, System.Drawing">
-    <value>141, 19</value>
+    <value>206, 27</value>
   </data>
   <data name="materialLabel23.TabIndex" type="System.Int32, mscorlib">
     <value>33</value>
@@ -616,13 +1147,16 @@
     <value>tabPage2</value>
   </data>
   <data name="&gt;&gt;materialLabel23.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="tbVenQdaVendere.Location" type="System.Drawing.Point, System.Drawing">
-    <value>667, 438</value>
+    <value>1038, 635</value>
+  </data>
+  <data name="tbVenQdaVendere.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="tbVenQdaVendere.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 26</value>
+    <value>273, 35</value>
   </data>
   <data name="tbVenQdaVendere.TabIndex" type="System.Int32, mscorlib">
     <value>32</value>
@@ -637,7 +1171,7 @@
     <value>tabPage2</value>
   </data>
   <data name="&gt;&gt;tbVenQdaVendere.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="btnVen.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -649,13 +1183,10 @@
     <value>NoControl</value>
   </data>
   <data name="btnVen.Location" type="System.Drawing.Point, System.Drawing">
-    <value>783, 490</value>
-  </data>
-  <data name="btnVen.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>1218, 711</value>
   </data>
   <data name="btnVen.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 36</value>
+    <value>82, 36</value>
   </data>
   <data name="btnVen.TabIndex" type="System.Int32, mscorlib">
     <value>31</value>
@@ -673,7 +1204,28 @@
     <value>tabPage2</value>
   </data>
   <data name="&gt;&gt;btnVen.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
+  </data>
+  <data name="lvVen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 115</value>
+  </data>
+  <data name="lvVen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>710, 420</value>
+  </data>
+  <data name="lvVen.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;lvVen.Name" xml:space="preserve">
+    <value>lvVen</value>
+  </data>
+  <data name="&gt;&gt;lvVen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lvVen.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;lvVen.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="columnHeader1.Text" xml:space="preserve">
     <value>Codice</value>
@@ -699,30 +1251,6 @@
   <data name="columnHeader5.Width" type="System.Int32, mscorlib">
     <value>100</value>
   </data>
-  <data name="lvVen.Location" type="System.Drawing.Point, System.Drawing">
-    <value>24, 79</value>
-  </data>
-  <data name="lvVen.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="lvVen.Size" type="System.Drawing.Size, System.Drawing">
-    <value>458, 291</value>
-  </data>
-  <data name="lvVen.TabIndex" type="System.Int32, mscorlib">
-    <value>30</value>
-  </data>
-  <data name="&gt;&gt;lvVen.Name" xml:space="preserve">
-    <value>lvVen</value>
-  </data>
-  <data name="&gt;&gt;lvVen.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lvVen.Parent" xml:space="preserve">
-    <value>tabPage2</value>
-  </data>
-  <data name="&gt;&gt;lvVen.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
   <data name="btnVenCerca.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -733,13 +1261,10 @@
     <value>NoControl</value>
   </data>
   <data name="btnVenCerca.Location" type="System.Drawing.Point, System.Drawing">
-    <value>850, 71</value>
-  </data>
-  <data name="btnVenCerca.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>1322, 103</value>
   </data>
   <data name="btnVenCerca.Size" type="System.Drawing.Size, System.Drawing">
-    <value>64, 36</value>
+    <value>88, 36</value>
   </data>
   <data name="btnVenCerca.TabIndex" type="System.Int32, mscorlib">
     <value>29</value>
@@ -757,7 +1282,7 @@
     <value>tabPage2</value>
   </data>
   <data name="&gt;&gt;btnVenCerca.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="materialLabel8.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -769,13 +1294,10 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>502, 348</value>
-  </data>
-  <data name="materialLabel8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>781, 505</value>
   </data>
   <data name="materialLabel8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>114, 19</value>
+    <value>163, 27</value>
   </data>
   <data name="materialLabel8.TabIndex" type="System.Int32, mscorlib">
     <value>28</value>
@@ -793,7 +1315,7 @@
     <value>tabPage2</value>
   </data>
   <data name="&gt;&gt;materialLabel8.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="materialLabel9.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -805,13 +1327,10 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>502, 303</value>
-  </data>
-  <data name="materialLabel9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>781, 439</value>
   </data>
   <data name="materialLabel9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 19</value>
+    <value>94, 27</value>
   </data>
   <data name="materialLabel9.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
@@ -829,7 +1348,7 @@
     <value>tabPage2</value>
   </data>
   <data name="&gt;&gt;materialLabel9.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="materialLabel10.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -841,13 +1360,10 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>502, 259</value>
-  </data>
-  <data name="materialLabel10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>781, 376</value>
   </data>
   <data name="materialLabel10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 19</value>
+    <value>80, 27</value>
   </data>
   <data name="materialLabel10.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
@@ -865,7 +1381,7 @@
     <value>tabPage2</value>
   </data>
   <data name="&gt;&gt;materialLabel10.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="materialLabel11.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -877,13 +1393,10 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>502, 214</value>
-  </data>
-  <data name="materialLabel11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>781, 310</value>
   </data>
   <data name="materialLabel11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>64, 19</value>
+    <value>91, 27</value>
   </data>
   <data name="materialLabel11.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -901,7 +1414,7 @@
     <value>tabPage2</value>
   </data>
   <data name="&gt;&gt;materialLabel11.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="materialLabel12.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -913,13 +1426,10 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>502, 169</value>
-  </data>
-  <data name="materialLabel12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>781, 245</value>
   </data>
   <data name="materialLabel12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 19</value>
+    <value>74, 27</value>
   </data>
   <data name="materialLabel12.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -937,7 +1447,7 @@
     <value>tabPage2</value>
   </data>
   <data name="&gt;&gt;materialLabel12.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="materialLabel13.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -949,13 +1459,10 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>502, 124</value>
-  </data>
-  <data name="materialLabel13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>781, 180</value>
   </data>
   <data name="materialLabel13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>74, 19</value>
+    <value>106, 27</value>
   </data>
   <data name="materialLabel13.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
@@ -973,7 +1480,7 @@
     <value>tabPage2</value>
   </data>
   <data name="&gt;&gt;materialLabel13.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="materialLabel14.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -985,13 +1492,10 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>502, 79</value>
-  </data>
-  <data name="materialLabel14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>781, 115</value>
   </data>
   <data name="materialLabel14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 19</value>
+    <value>80, 27</value>
   </data>
   <data name="materialLabel14.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
@@ -1009,16 +1513,19 @@
     <value>tabPage2</value>
   </data>
   <data name="&gt;&gt;materialLabel14.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="tbVenData.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="tbVenData.Location" type="System.Drawing.Point, System.Drawing">
-    <value>666, 345</value>
+    <value>1036, 500</value>
+  </data>
+  <data name="tbVenData.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="tbVenData.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 26</value>
+    <value>273, 35</value>
   </data>
   <data name="tbVenData.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
@@ -1033,16 +1540,19 @@
     <value>tabPage2</value>
   </data>
   <data name="&gt;&gt;tbVenData.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="tbVenQ.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="tbVenQ.Location" type="System.Drawing.Point, System.Drawing">
-    <value>666, 300</value>
+    <value>1036, 435</value>
+  </data>
+  <data name="tbVenQ.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="tbVenQ.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 26</value>
+    <value>273, 35</value>
   </data>
   <data name="tbVenQ.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
@@ -1057,16 +1567,19 @@
     <value>tabPage2</value>
   </data>
   <data name="&gt;&gt;tbVenQ.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>14</value>
   </data>
   <data name="tbVenPrezzo.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="tbVenPrezzo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>666, 255</value>
+    <value>1036, 370</value>
+  </data>
+  <data name="tbVenPrezzo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="tbVenPrezzo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 26</value>
+    <value>273, 35</value>
   </data>
   <data name="tbVenPrezzo.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
@@ -1081,16 +1594,19 @@
     <value>tabPage2</value>
   </data>
   <data name="&gt;&gt;tbVenPrezzo.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>15</value>
   </data>
   <data name="tbVenModello.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="tbVenModello.Location" type="System.Drawing.Point, System.Drawing">
-    <value>666, 210</value>
+    <value>1036, 305</value>
+  </data>
+  <data name="tbVenModello.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="tbVenModello.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 26</value>
+    <value>273, 35</value>
   </data>
   <data name="tbVenModello.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -1105,16 +1621,19 @@
     <value>tabPage2</value>
   </data>
   <data name="&gt;&gt;tbVenModello.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>16</value>
   </data>
   <data name="tbVenMarca.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="tbVenMarca.Location" type="System.Drawing.Point, System.Drawing">
-    <value>666, 166</value>
+    <value>1036, 241</value>
+  </data>
+  <data name="tbVenMarca.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="tbVenMarca.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 26</value>
+    <value>273, 35</value>
   </data>
   <data name="tbVenMarca.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -1129,16 +1648,19 @@
     <value>tabPage2</value>
   </data>
   <data name="&gt;&gt;tbVenMarca.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>17</value>
   </data>
   <data name="tbVenCate.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="tbVenCate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>666, 121</value>
+    <value>1036, 175</value>
+  </data>
+  <data name="tbVenCate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="tbVenCate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 26</value>
+    <value>273, 35</value>
   </data>
   <data name="tbVenCate.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -1153,13 +1675,16 @@
     <value>tabPage2</value>
   </data>
   <data name="&gt;&gt;tbVenCate.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>18</value>
   </data>
   <data name="tbVenId.Location" type="System.Drawing.Point, System.Drawing">
-    <value>666, 76</value>
+    <value>1036, 110</value>
+  </data>
+  <data name="tbVenId.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="tbVenId.Size" type="System.Drawing.Size, System.Drawing">
-    <value>178, 26</value>
+    <value>275, 35</value>
   </data>
   <data name="tbVenId.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -1174,34 +1699,151 @@
     <value>tabPage2</value>
   </data>
   <data name="&gt;&gt;tbVenId.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>19</value>
   </data>
-  <data name="tabPage2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 29</value>
+  <data name="&gt;&gt;btnAggiorna1.Name" xml:space="preserve">
+    <value>btnAggiorna1</value>
   </data>
-  <data name="tabPage2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
+  <data name="&gt;&gt;btnAggiorna1.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialRaisedButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="tabPage2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1004, 621</value>
+  <data name="&gt;&gt;btnAggiorna1.Parent" xml:space="preserve">
+    <value>tabPage3</value>
   </data>
-  <data name="tabPage2.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;btnAggiorna1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;rbtnQ.Name" xml:space="preserve">
+    <value>rbtnQ</value>
+  </data>
+  <data name="&gt;&gt;rbtnQ.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialRadioButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;rbtnQ.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;rbtnQ.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="tabPage2.Text" xml:space="preserve">
-    <value>Vendita</value>
+  <data name="&gt;&gt;materialLabel15.Name" xml:space="preserve">
+    <value>materialLabel15</value>
   </data>
-  <data name="&gt;&gt;tabPage2.Name" xml:space="preserve">
-    <value>tabPage2</value>
+  <data name="&gt;&gt;materialLabel15.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;tabPage2.Type" xml:space="preserve">
+  <data name="&gt;&gt;materialLabel15.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;materialLabel15.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;rbtnPrezzo.Name" xml:space="preserve">
+    <value>rbtnPrezzo</value>
+  </data>
+  <data name="&gt;&gt;rbtnPrezzo.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialRadioButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;rbtnPrezzo.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;rbtnPrezzo.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;rbtnCate.Name" xml:space="preserve">
+    <value>rbtnCate</value>
+  </data>
+  <data name="&gt;&gt;rbtnCate.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialRadioButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;rbtnCate.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;rbtnCate.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;rbtnId.Name" xml:space="preserve">
+    <value>rbtnId</value>
+  </data>
+  <data name="&gt;&gt;rbtnId.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialRadioButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;rbtnId.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;rbtnId.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lvVis.Name" xml:space="preserve">
+    <value>lvVis</value>
+  </data>
+  <data name="&gt;&gt;lvVis.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lvVis.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;lvVis.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tabPage3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
+  </data>
+  <data name="tabPage3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
+  </data>
+  <data name="tabPage3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
+  </data>
+  <data name="tabPage3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1566, 766</value>
+  </data>
+  <data name="tabPage3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>Visualizza</value>
+  </data>
+  <data name="&gt;&gt;tabPage3.Name" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;tabPage3.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;tabPage2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;tabPage3.Parent" xml:space="preserve">
     <value>materialTabControl</value>
   </data>
-  <data name="&gt;&gt;tabPage2.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;tabPage3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnAggiorna1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnAggiorna1.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="btnAggiorna1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1265, 623</value>
+  </data>
+  <data name="btnAggiorna1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 36</value>
+  </data>
+  <data name="btnAggiorna1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnAggiorna1.Text" xml:space="preserve">
+    <value>Aggiorna</value>
+  </data>
+  <data name="&gt;&gt;btnAggiorna1.Name" xml:space="preserve">
+    <value>btnAggiorna1</value>
+  </data>
+  <data name="&gt;&gt;btnAggiorna1.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialRaisedButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnAggiorna1.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;btnAggiorna1.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="rbtnQ.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1213,13 +1855,13 @@
     <value>NoControl</value>
   </data>
   <data name="rbtnQ.Location" type="System.Drawing.Point, System.Drawing">
-    <value>384, 435</value>
+    <value>597, 631</value>
   </data>
   <data name="rbtnQ.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="rbtnQ.Size" type="System.Drawing.Size, System.Drawing">
-    <value>81, 30</value>
+    <value>110, 30</value>
   </data>
   <data name="rbtnQ.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -1237,7 +1879,7 @@
     <value>tabPage3</value>
   </data>
   <data name="&gt;&gt;rbtnQ.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="materialLabel15.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1249,13 +1891,10 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>21, 437</value>
-  </data>
-  <data name="materialLabel15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>33, 634</value>
   </data>
   <data name="materialLabel15.Size" type="System.Drawing.Size, System.Drawing">
-    <value>81, 19</value>
+    <value>116, 27</value>
   </data>
   <data name="materialLabel15.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -1273,7 +1912,7 @@
     <value>tabPage3</value>
   </data>
   <data name="&gt;&gt;materialLabel15.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="rbtnPrezzo.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1285,13 +1924,13 @@
     <value>NoControl</value>
   </data>
   <data name="rbtnPrezzo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>296, 435</value>
+    <value>460, 631</value>
   </data>
   <data name="rbtnPrezzo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="rbtnPrezzo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>72, 30</value>
+    <value>95, 30</value>
   </data>
   <data name="rbtnPrezzo.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -1309,7 +1948,7 @@
     <value>tabPage3</value>
   </data>
   <data name="&gt;&gt;rbtnPrezzo.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="rbtnCate.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1321,13 +1960,13 @@
     <value>NoControl</value>
   </data>
   <data name="rbtnCate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>195, 434</value>
+    <value>303, 629</value>
   </data>
   <data name="rbtnCate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="rbtnCate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 30</value>
+    <value>121, 30</value>
   </data>
   <data name="rbtnCate.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -1345,7 +1984,7 @@
     <value>tabPage3</value>
   </data>
   <data name="&gt;&gt;rbtnCate.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="rbtnId.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1357,13 +1996,13 @@
     <value>NoControl</value>
   </data>
   <data name="rbtnId.Location" type="System.Drawing.Point, System.Drawing">
-    <value>108, 434</value>
+    <value>168, 629</value>
   </data>
   <data name="rbtnId.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="rbtnId.Size" type="System.Drawing.Size, System.Drawing">
-    <value>72, 30</value>
+    <value>95, 30</value>
   </data>
   <data name="rbtnId.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1381,7 +2020,28 @@
     <value>tabPage3</value>
   </data>
   <data name="&gt;&gt;rbtnId.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
+  </data>
+  <data name="lvVis.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 115</value>
+  </data>
+  <data name="lvVis.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1367, 465</value>
+  </data>
+  <data name="lvVis.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lvVis.Name" xml:space="preserve">
+    <value>lvVis</value>
+  </data>
+  <data name="&gt;&gt;lvVis.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lvVis.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;lvVis.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
   <data name="columnHeader3.Text" xml:space="preserve">
     <value>Codice</value>
@@ -1425,56 +2085,227 @@
   <data name="columnHeader11.Width" type="System.Int32, mscorlib">
     <value>136</value>
   </data>
-  <data name="lvVis.Location" type="System.Drawing.Point, System.Drawing">
-    <value>24, 79</value>
+  <data name="&gt;&gt;btnModCerca.Name" xml:space="preserve">
+    <value>btnModCerca</value>
   </data>
-  <data name="lvVis.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+  <data name="&gt;&gt;btnModCerca.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialRaisedButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="lvVis.Size" type="System.Drawing.Size, System.Drawing">
-    <value>880, 322</value>
+  <data name="&gt;&gt;btnModCerca.Parent" xml:space="preserve">
+    <value>tabPage4</value>
   </data>
-  <data name="lvVis.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;btnModCerca.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;lvVis.Name" xml:space="preserve">
-    <value>lvVis</value>
+  <data name="&gt;&gt;btnMod.Name" xml:space="preserve">
+    <value>btnMod</value>
   </data>
-  <data name="&gt;&gt;lvVis.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;btnMod.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialRaisedButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;lvVis.Parent" xml:space="preserve">
-    <value>tabPage3</value>
+  <data name="&gt;&gt;btnMod.Parent" xml:space="preserve">
+    <value>tabPage4</value>
   </data>
-  <data name="&gt;&gt;lvVis.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;btnMod.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;materialLabel16.Name" xml:space="preserve">
+    <value>materialLabel16</value>
+  </data>
+  <data name="&gt;&gt;materialLabel16.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel16.Parent" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;materialLabel16.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;materialLabel17.Name" xml:space="preserve">
+    <value>materialLabel17</value>
+  </data>
+  <data name="&gt;&gt;materialLabel17.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel17.Parent" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;materialLabel17.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;materialLabel18.Name" xml:space="preserve">
+    <value>materialLabel18</value>
+  </data>
+  <data name="&gt;&gt;materialLabel18.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel18.Parent" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;materialLabel18.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;materialLabel19.Name" xml:space="preserve">
+    <value>materialLabel19</value>
+  </data>
+  <data name="&gt;&gt;materialLabel19.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel19.Parent" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;materialLabel19.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="tabPage3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 29</value>
+  <data name="&gt;&gt;materialLabel20.Name" xml:space="preserve">
+    <value>materialLabel20</value>
   </data>
-  <data name="tabPage3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
+  <data name="&gt;&gt;materialLabel20.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="tabPage3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1004, 621</value>
+  <data name="&gt;&gt;materialLabel20.Parent" xml:space="preserve">
+    <value>tabPage4</value>
   </data>
-  <data name="tabPage3.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="&gt;&gt;materialLabel20.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
-  <data name="tabPage3.Text" xml:space="preserve">
-    <value>Visualizza</value>
+  <data name="&gt;&gt;materialLabel21.Name" xml:space="preserve">
+    <value>materialLabel21</value>
   </data>
-  <data name="&gt;&gt;tabPage3.Name" xml:space="preserve">
-    <value>tabPage3</value>
+  <data name="&gt;&gt;materialLabel21.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;tabPage3.Type" xml:space="preserve">
+  <data name="&gt;&gt;materialLabel21.Parent" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;materialLabel21.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;materialLabel22.Name" xml:space="preserve">
+    <value>materialLabel22</value>
+  </data>
+  <data name="&gt;&gt;materialLabel22.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialLabel22.Parent" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;materialLabel22.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;tbModData.Name" xml:space="preserve">
+    <value>tbModData</value>
+  </data>
+  <data name="&gt;&gt;tbModData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbModData.Parent" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;tbModData.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;tbModQ.Name" xml:space="preserve">
+    <value>tbModQ</value>
+  </data>
+  <data name="&gt;&gt;tbModQ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbModQ.Parent" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;tbModQ.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;tbModPrezzo.Name" xml:space="preserve">
+    <value>tbModPrezzo</value>
+  </data>
+  <data name="&gt;&gt;tbModPrezzo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbModPrezzo.Parent" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;tbModPrezzo.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;tbModModello.Name" xml:space="preserve">
+    <value>tbModModello</value>
+  </data>
+  <data name="&gt;&gt;tbModModello.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbModModello.Parent" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;tbModModello.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;tbModMarca.Name" xml:space="preserve">
+    <value>tbModMarca</value>
+  </data>
+  <data name="&gt;&gt;tbModMarca.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbModMarca.Parent" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;tbModMarca.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;tbModCate.Name" xml:space="preserve">
+    <value>tbModCate</value>
+  </data>
+  <data name="&gt;&gt;tbModCate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbModCate.Parent" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;tbModCate.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;textBox7.Name" xml:space="preserve">
+    <value>textBox7</value>
+  </data>
+  <data name="&gt;&gt;textBox7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox7.Parent" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;textBox7.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="tabPage4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
+  </data>
+  <data name="tabPage4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
+  </data>
+  <data name="tabPage4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
+  </data>
+  <data name="tabPage4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1566, 921</value>
+  </data>
+  <data name="tabPage4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tabPage4.Text" xml:space="preserve">
+    <value>Modifica</value>
+  </data>
+  <data name="&gt;&gt;tabPage4.Name" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;tabPage4.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;tabPage3.Parent" xml:space="preserve">
+  <data name="&gt;&gt;tabPage4.Parent" xml:space="preserve">
     <value>materialTabControl</value>
   </data>
-  <data name="&gt;&gt;tabPage3.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;tabPage4.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="btnModCerca.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1486,13 +2317,10 @@
     <value>NoControl</value>
   </data>
   <data name="btnModCerca.Location" type="System.Drawing.Point, System.Drawing">
-    <value>434, 65</value>
-  </data>
-  <data name="btnModCerca.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>675, 94</value>
   </data>
   <data name="btnModCerca.Size" type="System.Drawing.Size, System.Drawing">
-    <value>64, 36</value>
+    <value>88, 36</value>
   </data>
   <data name="btnModCerca.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
@@ -1522,13 +2350,10 @@
     <value>NoControl</value>
   </data>
   <data name="btnMod.Location" type="System.Drawing.Point, System.Drawing">
-    <value>283, 427</value>
-  </data>
-  <data name="btnMod.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>440, 619</value>
   </data>
   <data name="btnMod.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 36</value>
+    <value>119, 36</value>
   </data>
   <data name="btnMod.TabIndex" type="System.Int32, mscorlib">
     <value>29</value>
@@ -1558,13 +2383,10 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>74, 383</value>
-  </data>
-  <data name="materialLabel16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>115, 555</value>
   </data>
   <data name="materialLabel16.Size" type="System.Drawing.Size, System.Drawing">
-    <value>114, 19</value>
+    <value>163, 27</value>
   </data>
   <data name="materialLabel16.TabIndex" type="System.Int32, mscorlib">
     <value>28</value>
@@ -1594,13 +2416,10 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel17.Location" type="System.Drawing.Point, System.Drawing">
-    <value>74, 338</value>
-  </data>
-  <data name="materialLabel17.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>115, 490</value>
   </data>
   <data name="materialLabel17.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 19</value>
+    <value>94, 27</value>
   </data>
   <data name="materialLabel17.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
@@ -1630,13 +2449,10 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel18.Location" type="System.Drawing.Point, System.Drawing">
-    <value>74, 293</value>
-  </data>
-  <data name="materialLabel18.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>115, 425</value>
   </data>
   <data name="materialLabel18.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 19</value>
+    <value>80, 27</value>
   </data>
   <data name="materialLabel18.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
@@ -1666,13 +2482,10 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel19.Location" type="System.Drawing.Point, System.Drawing">
-    <value>74, 248</value>
-  </data>
-  <data name="materialLabel19.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>115, 360</value>
   </data>
   <data name="materialLabel19.Size" type="System.Drawing.Size, System.Drawing">
-    <value>64, 19</value>
+    <value>91, 27</value>
   </data>
   <data name="materialLabel19.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -1702,13 +2515,10 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel20.Location" type="System.Drawing.Point, System.Drawing">
-    <value>74, 203</value>
-  </data>
-  <data name="materialLabel20.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>115, 294</value>
   </data>
   <data name="materialLabel20.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 19</value>
+    <value>74, 27</value>
   </data>
   <data name="materialLabel20.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -1738,13 +2548,10 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel21.Location" type="System.Drawing.Point, System.Drawing">
-    <value>74, 159</value>
-  </data>
-  <data name="materialLabel21.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>115, 231</value>
   </data>
   <data name="materialLabel21.Size" type="System.Drawing.Size, System.Drawing">
-    <value>74, 19</value>
+    <value>106, 27</value>
   </data>
   <data name="materialLabel21.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
@@ -1774,13 +2581,10 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel22.Location" type="System.Drawing.Point, System.Drawing">
-    <value>74, 74</value>
-  </data>
-  <data name="materialLabel22.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>115, 107</value>
   </data>
   <data name="materialLabel22.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 19</value>
+    <value>80, 27</value>
   </data>
   <data name="materialLabel22.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
@@ -1801,10 +2605,13 @@
     <value>8</value>
   </data>
   <data name="tbModData.Location" type="System.Drawing.Point, System.Drawing">
-    <value>238, 379</value>
+    <value>370, 550</value>
+  </data>
+  <data name="tbModData.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="tbModData.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 26</value>
+    <value>273, 35</value>
   </data>
   <data name="tbModData.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
@@ -1822,10 +2629,13 @@
     <value>9</value>
   </data>
   <data name="tbModQ.Location" type="System.Drawing.Point, System.Drawing">
-    <value>238, 334</value>
+    <value>370, 484</value>
+  </data>
+  <data name="tbModQ.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="tbModQ.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 26</value>
+    <value>273, 35</value>
   </data>
   <data name="tbModQ.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
@@ -1843,10 +2653,13 @@
     <value>10</value>
   </data>
   <data name="tbModPrezzo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>238, 290</value>
+    <value>370, 421</value>
+  </data>
+  <data name="tbModPrezzo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="tbModPrezzo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 26</value>
+    <value>273, 35</value>
   </data>
   <data name="tbModPrezzo.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
@@ -1864,10 +2677,13 @@
     <value>11</value>
   </data>
   <data name="tbModModello.Location" type="System.Drawing.Point, System.Drawing">
-    <value>238, 245</value>
+    <value>370, 355</value>
+  </data>
+  <data name="tbModModello.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="tbModModello.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 26</value>
+    <value>273, 35</value>
   </data>
   <data name="tbModModello.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -1885,10 +2701,13 @@
     <value>12</value>
   </data>
   <data name="tbModMarca.Location" type="System.Drawing.Point, System.Drawing">
-    <value>238, 200</value>
+    <value>370, 290</value>
+  </data>
+  <data name="tbModMarca.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="tbModMarca.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 26</value>
+    <value>273, 35</value>
   </data>
   <data name="tbModMarca.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -1906,10 +2725,13 @@
     <value>13</value>
   </data>
   <data name="tbModCate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>238, 155</value>
+    <value>370, 225</value>
+  </data>
+  <data name="tbModCate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="tbModCate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 26</value>
+    <value>273, 35</value>
   </data>
   <data name="tbModCate.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -1927,10 +2749,13 @@
     <value>14</value>
   </data>
   <data name="textBox7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>238, 71</value>
+    <value>370, 103</value>
+  </data>
+  <data name="textBox7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="textBox7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>178, 26</value>
+    <value>275, 35</value>
   </data>
   <data name="textBox7.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -1947,32 +2772,107 @@
   <data name="&gt;&gt;textBox7.ZOrder" xml:space="preserve">
     <value>15</value>
   </data>
-  <data name="tabPage4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 29</value>
+  <data name="&gt;&gt;lbMed.Name" xml:space="preserve">
+    <value>lbMed</value>
   </data>
-  <data name="tabPage4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
+  <data name="&gt;&gt;lbMed.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="tabPage4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1004, 621</value>
+  <data name="&gt;&gt;lbMed.Parent" xml:space="preserve">
+    <value>tabPage5</value>
   </data>
-  <data name="tabPage4.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;lbMed.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lbMin.Name" xml:space="preserve">
+    <value>lbMin</value>
+  </data>
+  <data name="&gt;&gt;lbMin.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbMin.Parent" xml:space="preserve">
+    <value>tabPage5</value>
+  </data>
+  <data name="&gt;&gt;lbMin.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lbMax.Name" xml:space="preserve">
+    <value>lbMax</value>
+  </data>
+  <data name="&gt;&gt;lbMax.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbMax.Parent" xml:space="preserve">
+    <value>tabPage5</value>
+  </data>
+  <data name="&gt;&gt;lbMax.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnMedio.Name" xml:space="preserve">
+    <value>btnMedio</value>
+  </data>
+  <data name="&gt;&gt;btnMedio.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialRaisedButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnMedio.Parent" xml:space="preserve">
+    <value>tabPage5</value>
+  </data>
+  <data name="&gt;&gt;btnMedio.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="tabPage4.Text" xml:space="preserve">
-    <value>Modifica</value>
+  <data name="&gt;&gt;btnMin.Name" xml:space="preserve">
+    <value>btnMin</value>
   </data>
-  <data name="&gt;&gt;tabPage4.Name" xml:space="preserve">
-    <value>tabPage4</value>
+  <data name="&gt;&gt;btnMin.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialRaisedButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;tabPage4.Type" xml:space="preserve">
+  <data name="&gt;&gt;btnMin.Parent" xml:space="preserve">
+    <value>tabPage5</value>
+  </data>
+  <data name="&gt;&gt;btnMin.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnMax.Name" xml:space="preserve">
+    <value>btnMax</value>
+  </data>
+  <data name="&gt;&gt;btnMax.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialRaisedButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnMax.Parent" xml:space="preserve">
+    <value>tabPage5</value>
+  </data>
+  <data name="&gt;&gt;btnMax.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tabPage5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
+  </data>
+  <data name="tabPage5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
+  </data>
+  <data name="tabPage5.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
+  </data>
+  <data name="tabPage5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1566, 766</value>
+  </data>
+  <data name="tabPage5.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tabPage5.Text" xml:space="preserve">
+    <value>Calcoli</value>
+  </data>
+  <data name="&gt;&gt;tabPage5.Name" xml:space="preserve">
+    <value>tabPage5</value>
+  </data>
+  <data name="&gt;&gt;tabPage5.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;tabPage4.Parent" xml:space="preserve">
+  <data name="&gt;&gt;tabPage5.Parent" xml:space="preserve">
     <value>materialTabControl</value>
   </data>
-  <data name="&gt;&gt;tabPage4.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="&gt;&gt;tabPage5.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="lbMed.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1984,13 +2884,10 @@
     <value>NoControl</value>
   </data>
   <data name="lbMed.Location" type="System.Drawing.Point, System.Drawing">
-    <value>256, 252</value>
-  </data>
-  <data name="lbMed.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>398, 365</value>
   </data>
   <data name="lbMed.Size" type="System.Drawing.Size, System.Drawing">
-    <value>17, 19</value>
+    <value>24, 27</value>
   </data>
   <data name="lbMed.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -2020,13 +2917,10 @@
     <value>NoControl</value>
   </data>
   <data name="lbMin.Location" type="System.Drawing.Point, System.Drawing">
-    <value>256, 197</value>
-  </data>
-  <data name="lbMin.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>398, 286</value>
   </data>
   <data name="lbMin.Size" type="System.Drawing.Size, System.Drawing">
-    <value>17, 19</value>
+    <value>24, 27</value>
   </data>
   <data name="lbMin.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -2056,13 +2950,10 @@
     <value>NoControl</value>
   </data>
   <data name="lbMax.Location" type="System.Drawing.Point, System.Drawing">
-    <value>256, 144</value>
-  </data>
-  <data name="lbMax.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>398, 209</value>
   </data>
   <data name="lbMax.Size" type="System.Drawing.Size, System.Drawing">
-    <value>17, 19</value>
+    <value>24, 27</value>
   </data>
   <data name="lbMax.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -2092,13 +2983,10 @@
     <value>NoControl</value>
   </data>
   <data name="btnMedio.Location" type="System.Drawing.Point, System.Drawing">
-    <value>111, 248</value>
-  </data>
-  <data name="btnMedio.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>173, 360</value>
   </data>
   <data name="btnMedio.Size" type="System.Drawing.Size, System.Drawing">
-    <value>63, 36</value>
+    <value>86, 36</value>
   </data>
   <data name="btnMedio.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -2128,13 +3016,10 @@
     <value>NoControl</value>
   </data>
   <data name="btnMin.Location" type="System.Drawing.Point, System.Drawing">
-    <value>111, 193</value>
-  </data>
-  <data name="btnMin.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>173, 280</value>
   </data>
   <data name="btnMin.Size" type="System.Drawing.Size, System.Drawing">
-    <value>72, 36</value>
+    <value>100, 36</value>
   </data>
   <data name="btnMin.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -2164,13 +3049,10 @@
     <value>NoControl</value>
   </data>
   <data name="btnMax.Location" type="System.Drawing.Point, System.Drawing">
-    <value>111, 140</value>
-  </data>
-  <data name="btnMax.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>173, 203</value>
   </data>
   <data name="btnMax.Size" type="System.Drawing.Size, System.Drawing">
-    <value>84, 36</value>
+    <value>118, 36</value>
   </data>
   <data name="btnMax.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -2190,59 +3072,14 @@
   <data name="&gt;&gt;btnMax.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="tabPage5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 29</value>
-  </data>
-  <data name="tabPage5.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="tabPage5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1004, 621</value>
-  </data>
-  <data name="tabPage5.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="tabPage5.Text" xml:space="preserve">
-    <value>Calcoli</value>
-  </data>
-  <data name="&gt;&gt;tabPage5.Name" xml:space="preserve">
-    <value>tabPage5</value>
-  </data>
-  <data name="&gt;&gt;tabPage5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabPage5.Parent" xml:space="preserve">
-    <value>materialTabControl</value>
-  </data>
-  <data name="&gt;&gt;tabPage5.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="materialTabControl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 80</value>
-  </data>
-  <data name="materialTabControl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1012, 654</value>
-  </data>
-  <data name="materialTabControl.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;materialTabControl.Name" xml:space="preserve">
-    <value>materialTabControl</value>
-  </data>
-  <data name="&gt;&gt;materialTabControl.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialTabControl, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;materialTabControl.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;materialTabControl.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="materialTabSelector.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 61</value>
+    <value>0, 88</value>
+  </data>
+  <data name="materialTabSelector.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="materialTabSelector.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1279, 38</value>
+    <value>1990, 55</value>
   </data>
   <data name="materialTabSelector.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -2262,14 +3099,44 @@
   <data name="&gt;&gt;materialTabSelector.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="btnAggiorna2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnAggiorna2.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="btnAggiorna2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 569</value>
+  </data>
+  <data name="btnAggiorna2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 36</value>
+  </data>
+  <data name="btnAggiorna2.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="btnAggiorna2.Text" xml:space="preserve">
+    <value>Aggiorna</value>
+  </data>
+  <data name="&gt;&gt;btnAggiorna2.Name" xml:space="preserve">
+    <value>btnAggiorna2</value>
+  </data>
+  <data name="&gt;&gt;btnAggiorna2.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialRaisedButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnAggiorna2.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;btnAggiorna2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>9, 20</value>
+    <value>14, 29</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1028, 741</value>
+    <value>1599, 1074</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
@@ -4004,8 +4871,8 @@
         DwAA4YcAAOPHAADxxwAA8A8AAPAPAAD4HwAA/n8AAP//AAD//wAA//8AAA==
 </value>
   </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
