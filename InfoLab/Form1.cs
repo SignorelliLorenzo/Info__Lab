@@ -35,8 +35,8 @@ namespace InfoLab
             bool completato = default(bool);
             bool salvato = false;
             funzioni.leggifile(eleAttrezzi, ref num, "archivio.txt");
-            salvato=Database.salva(eleAttrezzi, num);
-            if(salvato==true)
+            salvato = Database.salva(eleAttrezzi, num);
+            if (salvato==true)
             {
                 completato = Online.Database.carica(eleAttrezzi, ref num);
                 if (completato == false)
@@ -56,14 +56,21 @@ namespace InfoLab
                 MessageBox.Show("Inserire tutt i dati");
                 return;
             }
-
-            nuovoA.codice = tbAcqId.Text;
-            nuovoA.categoria =tbAcqCate.Text;
-            nuovoA.marca = tbAcqMarca.Text;
-            nuovoA.modello = tbAcqModello.Text;
-            nuovoA.prezzo = decimal.Parse(tbAcqPrezzo.Text);
-            nuovoA.quantità = int.Parse(tbAcqQ.Text);
-            nuovoA.data = DateTime.Parse(tbAcqData.Text);
+            try
+            {
+                nuovoA.codice = tbAcqId.Text;
+                nuovoA.categoria = tbAcqCate.Text;
+                nuovoA.marca = tbAcqMarca.Text;
+                nuovoA.modello = tbAcqModello.Text;
+                nuovoA.prezzo = decimal.Parse(tbAcqPrezzo.Text);
+                nuovoA.quantità = int.Parse(tbAcqQ.Text);
+                nuovoA.data = DateTime.Parse(tbAcqData.Text);
+            }
+            catch
+            {
+                MessageBox.Show("Dati non validi");
+                return;
+            }
 
             eleAttrezzi[num] = nuovoA;
             num += 1;
@@ -304,6 +311,11 @@ namespace InfoLab
                 MessageBox.Show("Salvataggio completato online");
                 return;
             }
+        }
+
+        private void tabPage1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -49,6 +49,7 @@
             this.tbAcqCate = new System.Windows.Forms.TextBox();
             this.tbAcqId = new System.Windows.Forms.TextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.btnAggiorna2 = new MaterialSkin.Controls.MaterialRaisedButton();
             this.materialLabel23 = new MaterialSkin.Controls.MaterialLabel();
             this.tbVenQdaVendere = new System.Windows.Forms.TextBox();
             this.btnVen = new MaterialSkin.Controls.MaterialRaisedButton();
@@ -112,7 +113,6 @@
             this.btnMin = new MaterialSkin.Controls.MaterialRaisedButton();
             this.btnMax = new MaterialSkin.Controls.MaterialRaisedButton();
             this.materialTabSelector = new MaterialSkin.Controls.MaterialTabSelector();
-            this.btnAggiorna2 = new MaterialSkin.Controls.MaterialRaisedButton();
             this.materialTabControl.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -154,6 +154,7 @@
             resources.ApplyResources(this.tabPage1, "tabPage1");
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.UseVisualStyleBackColor = true;
+            this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
             // 
             // btnAcq
             // 
@@ -282,6 +283,17 @@
             resources.ApplyResources(this.tabPage2, "tabPage2");
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // btnAggiorna2
+            // 
+            resources.ApplyResources(this.btnAggiorna2, "btnAggiorna2");
+            this.btnAggiorna2.Depth = 0;
+            this.btnAggiorna2.Icon = null;
+            this.btnAggiorna2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btnAggiorna2.Name = "btnAggiorna2";
+            this.btnAggiorna2.Primary = true;
+            this.btnAggiorna2.UseVisualStyleBackColor = true;
+            this.btnAggiorna2.Click += new System.EventHandler(this.btnAggiorna2_Click);
             // 
             // materialLabel23
             // 
@@ -770,17 +782,6 @@
             resources.ApplyResources(this.materialTabSelector, "materialTabSelector");
             this.materialTabSelector.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialTabSelector.Name = "materialTabSelector";
-            // 
-            // btnAggiorna2
-            // 
-            resources.ApplyResources(this.btnAggiorna2, "btnAggiorna2");
-            this.btnAggiorna2.Depth = 0;
-            this.btnAggiorna2.Icon = null;
-            this.btnAggiorna2.MouseState = MaterialSkin.MouseState.HOVER;
-            this.btnAggiorna2.Name = "btnAggiorna2";
-            this.btnAggiorna2.Primary = true;
-            this.btnAggiorna2.UseVisualStyleBackColor = true;
-            this.btnAggiorna2.Click += new System.EventHandler(this.btnAggiorna2_Click);
             // 
             // tbModId
             // 

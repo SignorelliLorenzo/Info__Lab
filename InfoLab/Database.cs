@@ -37,14 +37,14 @@ namespace Online
                 while (x < n)
                 {
 
-                    var inserimento = new MySqlCommand("INSERT INTO Ferramenta (isbn,titolo,autore,editore,prezzo,materia,classe,quantita) VALUES(@a,@b,@c,@d,@e,@f,@g,@h)", conn);
+                    var inserimento = new MySqlCommand("INSERT INTO Ferramenta (Codice,Categoria,marca,Modello,Prezzo,quantità,data) VALUES(@a,@b,@c,@d,@e,@f,@g)", conn);
                     inserimento.Parameters.AddWithValue("@a", elep[x].codice);
                     inserimento.Parameters.AddWithValue("@b", elep[x].categoria);
                     inserimento.Parameters.AddWithValue("@c", elep[x].marca);
                     inserimento.Parameters.AddWithValue("@d", elep[x].modello);
-                    inserimento.Parameters.AddWithValue("@e", elep[x].prezzo);
-                    inserimento.Parameters.AddWithValue("@f", elep[x].quantità);
-                    inserimento.Parameters.AddWithValue("@g", elep[x].data);
+                    inserimento.Parameters.AddWithValue("@e", elep[x].prezzo.ToString());
+                    inserimento.Parameters.AddWithValue("@f", elep[x].quantità.ToString());
+                    inserimento.Parameters.AddWithValue("@g", elep[x].data.ToString());
                     int nr = inserimento.ExecuteNonQuery();
                     inserimento.Dispose();
                     x++;
@@ -69,17 +69,17 @@ namespace Online
                 var conn = new MySqlConnection($"Server=85.10.205.173;port=3306;Uid=ad_pass;Pwd={supersecretpass};Database=passfolder1;Connection Timeout=30;old guids=true;");
                 conn.Open();
                 var cmd = new MySqlCommand("select * from Ferramenta", conn);
-                MySqlDataReader dr = default;
+                MySqlDataReader dr = default(MySqlDataReader);
                 dr = cmd.ExecuteReader();
                 while (dr.Read() == true)
                 {
-                    elep[n].codice = dr["isbn"] as string;
-                    elep[n].categoria = dr["titolo"] as string;
-                    elep[n].marca = dr["autore"] as string;
-                    elep[n].modello = dr["editore"] as string;
-                    elep[n].prezzo = decimal.Parse(dr["prezzo"] as string);
-                    elep[n].quantità = int.Parse(dr["materia"] as string);
-                    elep[n].data = DateTime.Parse(dr["classe"] as string);
+                    elep[n].codice = dr["Codice"] as string;
+                    elep[n].categoria = dr["Categoria"] as string;
+                    elep[n].marca = dr["marca"] as string;
+                    elep[n].modello = dr["Modello"] as string;
+                    elep[n].prezzo = decimal.Parse(dr["Prezzo"] as string);
+                    elep[n].quantità = int.Parse(dr["quantità"] as string);
+                    elep[n].data = DateTime.Parse(dr["data"] as string);
                     n++;
                 }
                 dr.Close();
