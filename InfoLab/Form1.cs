@@ -23,7 +23,6 @@ namespace InfoLab
             materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
             materialSkinManager.ColorScheme = new ColorScheme(Primary.LightBlue600, Primary.LightBlue500, Primary.LightBlue400, Accent.LightBlue200, TextShade.WHITE);
             MaximizeBox = false;
-            pictureBox1.BackColor = Color.Transparent;
         }
     }
 }
