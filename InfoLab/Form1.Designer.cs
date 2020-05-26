@@ -756,6 +756,7 @@
             this.Controls.Add(this.materialTabControl);
             this.Name = "tbModId";
             this.Sizable = false;
+            this.Load += new System.EventHandler(this.tbModId_Load);
             this.materialTabControl.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();

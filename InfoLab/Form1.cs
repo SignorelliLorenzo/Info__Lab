@@ -24,5 +24,10 @@ namespace InfoLab
             materialSkinManager.ColorScheme = new ColorScheme(Primary.LightBlue600, Primary.LightBlue500, Primary.LightBlue400, Accent.LightBlue200, TextShade.WHITE);
             MaximizeBox = false;
         }
+
+        private void tbModId_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
