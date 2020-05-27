@@ -68,7 +68,7 @@ namespace Online
 
                 var conn = new MySqlConnection($"Server=85.10.205.173;port=3306;Uid=ad_pass;Pwd={supersecretpass};Database=passfolder1;Connection Timeout=30;old guids=true;");
                 conn.Open();
-                var cmd = new MySqlCommand("select * from Ferramenta", conn);
+                var cmd = new MySqlCommand("SELECT * FROM `Ferramenta`", conn);
                 MySqlDataReader dr = default(MySqlDataReader);
                 dr = cmd.ExecuteReader();
                 while (dr.Read() == true)
